@@ -30,17 +30,12 @@
       {% endif %}
       
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>
+        Email: {{ author.email }}</a></li>
       {% endif %}
       <!-- 让邮箱成为可点击的链接(原作者代码)
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
-      {% endif %}
-      {% if author.email %} 只显示邮箱地址
-      <p>{{ author.email }}</p>
-      {% endif %}
-      {% if author.email %}
-      <a href="mailto:{{ author.email }}">{{ author.email }}</a>
       {% endif %}
       -->
       {% if author.keybase %}
