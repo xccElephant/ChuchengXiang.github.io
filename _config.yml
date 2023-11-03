@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "academic homepage hhh"
-description              : "no description."
+title                    : "academic homepage"
+description              : "This is xccElephant's homepage."
 repository               : "xccElephant/xccElephant.github.io"
 google_scholar_stats_use_cdn : true
 
